@@ -1,8 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use App\lib\Meta;
+use App\Helpers\Meta;
 
 class WelcomeController
 {
