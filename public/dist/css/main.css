@@ -590,6 +590,12 @@ video {
 .min-h-\[50px\] {
   min-height: 50px;
 }
+.min-h-\[100px\] {
+  min-height: 100px;
+}
+.min-h-\[100vh\] {
+  min-height: 100vh;
+}
 .w-full {
   width: 100%;
 }

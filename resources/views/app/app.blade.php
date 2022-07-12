@@ -17,13 +17,19 @@
     <meta name="twitter:image:type" content="@yield('meta.twitter.image.type','image/jpeg')">
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
     <link href="{{ mix('/dist/css/main.css') }}" rel="stylesheet">
+
+    @yield ("head_script")
+
 </head>
 
 
 <body>
 @include("components.nav.default")
-<main class="w-full relative overflow-x-hidden py-[60px]">
+<main class="w-full min-h-[100vh] relative overflow-x-hidden py-[60px]">
     @yield("layout")
 </main>
+@include("components.footer.default")
+
+@yield("footer_script")
 </body>
 </html>
